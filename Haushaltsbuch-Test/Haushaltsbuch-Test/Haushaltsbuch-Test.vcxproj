@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{9EAB3918-24E5-4F55-ADCA-66B39FAD1630}</ProjectGuid>
+    <ProjectGuid>{EC35B6DC-BA33-4BA5-9C82-2CA3A56B8901}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Mathematikformeln</RootNamespace>
+    <RootNamespace>HaushaltsbuchTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Mathematikformeln.cpp" />
+    <ClCompile Include="Haushaltsbuch-Test.cpp" />
+    <ClCompile Include="HighMath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HighMath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
