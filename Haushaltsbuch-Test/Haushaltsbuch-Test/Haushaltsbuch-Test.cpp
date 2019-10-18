@@ -23,6 +23,7 @@ int main(int argc, char* argv[])          // void = Nichts bzw. leer, man kann a
 	cout << wertA << " ^ " << wertB << " = " << potenz(wertA, wertB) << endl;
 	cout << wertA << " + " << wertB << " = " << addition(wertA, wertB) << endl;
 
+	cout << "Hallo Andi, ich bins Forkmaster!" << endl;
 
 	return 0;           // Rückgabewert alles größer 0 gilt ist ein Fehlernummer
 }
